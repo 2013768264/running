@@ -8,12 +8,12 @@ on:
     branches:
       - master
     paths:
-      #- scripts/nike_sync.py
-      #- scripts/nike_to_strava_sync.py
+      - scripts/nike_sync.py
+      - scripts/nike_to_strava_sync.py
       - scripts/strava_sync.py
       - scripts/gen_svg.py
       - scripts/garmin_sync.py
-      #- scripts/keep_sync.py
+      - scripts/keep_sync.py
       - scripts/gpx_sync.py
       - scripts/tcx_sync.py
       - scripts/garmin_to_strava_sync.py
@@ -21,12 +21,12 @@ on:
 
 env:
   # please change to your own config.
-  RUN_TYPE: garmin_cn # support strava/nike/garmin/garmin_cn/keep/only_gpx/only_fit/nike_to_strava/strava_to_garmin/strava_to_garmin_cn/garmin_to_strava/garmin_to_strava_cn/codoon, Please change the 'pass' it to your own
+  RUN_TYPE: keep # support strava/nike/garmin/garmin_cn/keep/only_gpx/only_fit/nike_to_strava/strava_to_garmin/strava_to_garmin_cn/garmin_to_strava/garmin_to_strava_cn/codoon, Please change the 'pass' it to your own
   ATHLETE: 吴涛
   TITLE: 吴涛的跑步记录
   MIN_GRID_DISTANCE: 10 # change min distance here
   TITLE_GRID: Over 3km Runs # also here
-  GITHUB_NAME: wutao20010309 # change to yours
+  GITHUB_NAME: 2013768264 # change to yours
   GITHUB_EMAIL: 2013768264@qq.com # change to yours
 
   # IGNORE_BEFORE_SAVING: True # if you want to ignore some data before saving, set this to True
