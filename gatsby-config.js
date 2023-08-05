@@ -3,7 +3,7 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
-    siteTitle: '吴涛的跑步记录',
+    siteTitle: '吴涛的跑步日志',
     siteUrl: 'https://wtrunning.xyz',
     logo: 'https://i.postimg.cc/15XmbWCh/favicon.jpg',
     description: 'Personal site and blog',
