@@ -4,8 +4,8 @@ module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
     siteTitle: '吴涛的跑步记录',
-    //siteUrl: 'https://yihong.run',
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+    siteUrl: 'https://wtrunning.xyz',
+    logo: 'https://easylink.cc/vgjszt',
     description: 'Personal site and blog',
     navLinks: [
       {
