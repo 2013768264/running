@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: '吴涛的跑步记录',
     siteUrl: 'https://wtrunning.xyz',
-    logo: 'https://easylink.cc/vgjszt',
+    logo: 'https://i.postimg.cc/15XmbWCh/favicon.jpg',
     description: 'Personal site and blog',
     navLinks: [
       {
