@@ -3,7 +3,7 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
-    siteTitle: 'Running Page',
+    siteTitle: '吴涛的跑步记录',
     siteUrl: 'https://yihong.run',
     logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
     description: 'Personal site and blog',
@@ -11,10 +11,6 @@ module.exports = {
       {
         name: 'Blog',
         url: 'https://yihong.run/running',
-      },
-      {
-        name: 'About',
-        url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
       },
     ],
   },
